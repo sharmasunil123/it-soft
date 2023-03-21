@@ -49,4 +49,14 @@ $(document).ready(function () {
     //     dots: true,
     //     dotsClass: "button__bar",
     //   });
+    $(document).ready(function () {
+      $(".menu1").click(function () {
+        $('.mobile-menu').show('slide, right, 500');
+        $('.overlay').show('slide, right, 500');
+      });
+      $(".close, .overlay").click(function () {
+        $('.mobile-menu').hide('slide, right, 500');
+        $('.overlay').hide('slide, right, 500');
+      });
+    });
   });
