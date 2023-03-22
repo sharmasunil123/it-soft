@@ -109,7 +109,6 @@ a {
 }
 .menu li a {
   color: #000;
-  
 }
 
 .menu li:last-child {
@@ -176,7 +175,6 @@ a {
   position: absolute;
   z-index: 99999;
   top: 0;
-  
 }
 .slider h3 {
   padding-top: 70px;
@@ -200,7 +198,6 @@ a {
   padding: 10px 16px;
   display: inline-block;
   color: #fff;
-
 }
 .slider-button img {
   width: 24px;
@@ -297,12 +294,12 @@ a {
   transform: rotate(225deg);
 }
 /* slider-end */
-@keyframes cssAnimation_0{
-  to{
+@keyframes cssAnimation_0 {
+  to {
     transform: rotate(360deg) translate(0, 0);
   }
 }
-.slider-animation{
+.slider-animation {
   animation: cssAnimation_0 4000ms infinite linear;
   position: absolute;
 }
@@ -384,7 +381,7 @@ a {
   margin-top: 60px;
   padding: 50px;
 }
-.chooseus-tex{
+.chooseus-tex {
   padding-top: 30px;
   padding-left: 25px;
 }
@@ -841,7 +838,7 @@ a {
     background: #fff;
     width: 85%;
     max-width: 340px;
-    z-index: 9999;
+    z-index: 999999;
     height: 100vh;
     display: none;
     box-shadow: 0 0px 12px rgb(0 0 0 / 10%);
@@ -924,12 +921,15 @@ a {
   .slider h3 {
     font-size: 20px;
     text-align: center;
+    padding-top: 80px;
   }
   .slider h1 {
+    text-align: center;
     font-size: 35px;
     line-height: 42px;
-    padding: 13px 0 0;
+    /* padding: 13px 0 0; */
     margin: auto;
+    width: 80%;
   }
   .slider p {
     display: none;
@@ -945,7 +945,10 @@ a {
     padding: 8px 10px;
     display: inline-block;
     color: #ff3c00;
-    margin-left: 121px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-left: 170px;
   }
   .slider-button2 img {
     width: 16px;
